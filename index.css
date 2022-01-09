@@ -1,0 +1,102 @@
+body {
+    color:rgb(51, 51, 51)
+    background-color: #fff;
+    font-family: 'Open Sans', Arial, Helvetica, cursive, sans-serif;
+    font-size: 15px;
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(51, 51, 51)
+}
+
+.navbar .left img {
+    margin-top: 10px;
+}
+
+.navbar .left.flex {
+    margin: 0;
+    padding: 0;
+}
+
+.navbar .left .second {
+    margin: 10px 0 0 5px;
+}
+
+.navbar nav .first-ul li {
+    font-size: 1.5rem;
+}
+
+.navbar p {
+    color: var(--dark-color);
+    font-size: 2rem;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar.flex {
+    justify-content: space-between;
+}
+
+.navbar nav .flex li {
+    margin: 0 10px;
+}
+
+
+.content .grid-left {
+    margin: 70px 0 0 60px;
+}
+
+.content .grid-left h1 {
+    font-size: 3rem;
+    font-weight: 100;
+}
+
+.content .grid-left h4 {
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.content .grid-left i {
+    z-index: 2;
+}
+
+.content .grid-left input {
+    height: 30px;
+    width: 200px;
+    font-size: 16px;
+    border-radius: 3px;
+    border: 1px solid rgb(51, 51, 51);
+}
+
+.content .grid-left input:focus {
+    outline: 1px solid #0041c4;
+}
+
+.content .grid-right {
+    max-width: 43vw;
+}
+
+.content .grid-right .flex img {
+    height: 430px;
+    width: 500px;
+}
+
+.flex {
+    display: flex;
+    flex-direction: row;
+    margin: 10px;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 40px;
+}
+
